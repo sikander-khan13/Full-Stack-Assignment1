@@ -1,0 +1,542 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    padding: 10px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.p1{
+    display: flex;
+    gap: 21px;
+}
+
+.p2{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.Button{
+    display: flex;
+    gap: 5px;
+}
+.btn{
+    gap: 10px;
+}
+
+.btn1{
+    padding: 11px 28px;
+    border-radius: 28px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+}
+.btn2{
+    padding: 11px 28px;
+    border-radius: 28px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.btn1:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: darkred;
+}
+
+.p2:hover{
+    color: darkgreen;
+}
+
+.background {
+    background-image: url('Rectangle1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .offer-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 750px;
+  }
+  
+  .offer-box h1 {
+    margin: 0 0 20px;
+    font-size: 24px;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .input-group select,
+  .offer-box input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .offer-box button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .offer-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  .why-button {
+    position: absolute;
+    bottom: 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .why-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+
+
+  .ib{
+    display: flex;
+    gap: 4px;
+  }
+
+  .sl{
+    background-color: #ECECEC;
+    color: black;
+    font-weight: bold;
+  }
+
+ .bg{
+    background-color: #FDE24F;
+ } 
+
+ .inner{
+    padding: 20px;
+    gap: 10px;
+ }
+
+ .head{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 34px;
+ }
+
+ .imga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+ }
+
+ .frame15{
+    object-fit: cover;
+ }
+
+ .features-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .features-section h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 50px;
+    padding: 20px;
+  }
+  
+  .features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .feature-item {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .feature-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .feature-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .divider {
+    height: 1px;
+    width: 20px;
+    background-color: #ddd;
+    align-self: center;
+  }
+  
+  .full-features-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .full-features-button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .offers-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .offers-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .offers-column {
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  .offers-column h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .offer-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offer-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+  
+  .offer-card span {
+    font-size: 14px;
+  }
+  
+  .view-offers-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .view-offers-button:hover {
+    background-color: #333;
+  }
+
+  .container {
+    text-align: center;
+    background-color: #CFBAFF;
+  }
+  
+  h1 {
+    font-size: 75px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+    padding: 50px;
+    line-height: 90.77px;
+  }
+
+  .btndiv{
+    padding: 20px;
+  }
+  
+  .cta-button {
+    background-color: #000; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #333;
+  }
+
+
+  .footer {
+    background-color: #000; /* Black background */
+    padding: 40px 20px;
+    color: white;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .logo {
+    max-width: 150px; 
+    margin-bottom: 20px;
+  }
+  
+  .column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .column ul li {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .column ul li strong {
+    font-weight: bold;
+  }
+  
+  .footer-note {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #aaa; /* Light gray text for the disclaimer */
+    text-align: center;
+  }
+
+
+  /* Responsive Design Using Media Queries */
+
+@media (max-width: 768px) {
+    /* Adjust navbar layout */
+    .nav {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+    .p1 {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+    .Button {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+
+    .img4{
+        width: 30%;
+    }
+
+  
+    /* Resize input group in the offer box */
+    .offer-box {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+    .input-group {
+      flex-direction: column;
+    }
+    .ib {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    /* Features Section */
+    .features-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .feature-item {
+      max-width: 100%;
+    }
+  
+    /* Offers Section */
+    .offers-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .offers-column {
+      max-width: 100%;
+    }
+  
+    /* Sign-up section */
+    h1 {
+      font-size: 50px;
+      line-height: 1.2;
+    }
+  
+    /* Footer */
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .column {
+      margin: 10px 0;
+    }
+
+    .frame15{
+        width: 70%;
+    }
+  }
+  
+  /*(Mobile screens) */
+  @media (max-width: 480px) {
+    /* Navbar */
+    .p2 {
+      font-size: 16px;
+    }
+    .btn1,
+    .btn2 {
+      padding: 8px 16px;
+      font-size: 16px;
+    }
+  
+    /* Offer Box */
+    .offer-box {
+      width: 100%;
+      padding: 15px;
+    }
+    .offer-box h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .sl,
+    .offer-box button {
+      font-size: 12px;
+    }
+  
+    /* Features Section */
+    .features-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .feature-item {
+      max-width: 90%;
+    }
+  
+    /* Offers Section */
+    .offer-card {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    /* Buttons */
+    .view-offers-button,
+    .why-button,
+    .full-features-button {
+      padding: 8px 12px;
+      font-size: 12px;
+    }
+  
+    /* Footer */
+    .footer {
+      padding: 20px;
+    }
+    .footer-note {
+      font-size: 10px;
+    }
+  }
